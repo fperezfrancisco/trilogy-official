@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- box icons link-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Trilogy Soccer</title>
+  </head>
+  <body class="mainBody indexBody">
+    <header class="mainHeader flex indexHeader">
+      <span class="flex homeLogoContainer">
+        <a class="navLink homeLogoLink" href="index.html">
+          <img
+            src="logos-icons/trilogy-logo-white.png"
+            class="homeLogo"
+            width="48"
+          />
+        </a>
+      </span>
+      <nav class="navBar flex">
+        <ul class="flex navList noList">
+          <li class="listItem flex navListItem">
+            <a class="flex navLink" href="#">Services</a>
+          </li>
+          <li class="listItem flex navListItem">
+            <a class="flex navLink" href="#">Training Plans</a>
+          </li>
+          <li class="listItem flex navListItem">
+            <a class="flex navLink" href="#">About Us</a>
+          </li>
+          <li class="listItem flex navListItem">
+            <button class="flex navLink contactBtn">
+              <a class="flex navLink" href="#ctaForm">Contact Us</a>
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <span class="mobileMenu flex">
+        <i class="bx bx-menu"></i>
+      </span>
+    </header>
+    <main class="mainContainer flex-column">
+      <section class="sectionContainer heroContainer grid">
+        <div class="overlay absolute"></div>
+        <!--
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="901"
+          height="700"
+          viewBox="0 0 901 700"
+          fill="none"
+          class="heroSvg absolute"
+        >
+          <path
+            d="M4.99996 697.5H901M2.5 699.986L6.5 4.98554M898.5 44.9999V4.99994M898.5 700V660M3.99996 2.5H901"
+            stroke="white"
+            stroke-opacity="0.72"
+            stroke-width="5"
+          />
+        </svg>  
+        -->
+
+        <!--
+          <img class="heroSvgImg absolute" src="./imgs/tablet-background.svg" />
+        -->
+
+        <div class="imgContainer heroImgContainer flex">
+          <picture>
+            <source srcset="imgs/reed-cole-picture.JPG" />
+            <img class="heroImg" src="imgs/reed-cole-picture.JPG" />
+          </picture>
+        </div>
+
+        <div class="textContainer heroTextContainer flex-column">
+          <h1 class="mainTitle pageTitle">
+            <span class="specificWords">HIGH QUALITY</span> SOCCER TRAINING,
+            DESIGNED FOR HIGH QUALITY RESULTS.
+          </h1>
+          <p class="sectionPara">
+            Trilogy Soccer offers the best soccer training services in the Santa
+            Clarita Valley specifically designed to develop skillful, effective,
+            and confident athletes.
+          </p>
+          <a
+            style="float: none"
+            id="Setmore_button_iframe"
+            href="https://booking.setmore.com/scheduleappointment/f41e7e52-ff1f-473b-9092-0e1d7d29e512"
+            ><img
+              width="150px"
+              border="none"
+              src="https://storage.googleapis.com/full-assets/setmore/images/1.0/Settings/book-now-blue.svg"
+              alt="Book an appointment with Francisco J Perez using Setmore"
+          /></a>
+        </div>
+      </section>
+      <section class="sectionContainer flex-column reviewsSection">
+        <h2 class="sectionTitle reviewHeading">What do people have to say?</h2>
+        <div class="reviewInnerContainer grid">
+          <div class="reviewBox flex-column">
+            <h3 class="reviewName">Jen</h3>
+            <div class="datePlusRating flex">
+              <span class="starRating flex">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+              </span>
+              <span class="date flex">15 Aug 2023</span>
+            </div>
+            <div class="reviewPara">
+              <p class="sectionPara">
+                Exactly how your athlete needs to be training on the side.
+                Outstanding group & individual trainings.
+              </p>
+            </div>
+          </div>
+          <div class="reviewBox flex-column">
+            <h3 class="reviewName">Chris Neal</h3>
+            <div class="datePlusRating flex">
+              <span class="starRating flex"
+                ><i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i
+              ></span>
+              <span class="date flex"> 9 Oct 2023</span>
+            </div>
+            <div class="reviewPara">
+              <p class="sectionPara">
+                The training for Trilogy is top notch. My daughter and her
+                teammates love coming every time. The exercises keep players
+                engaged, and wanting to do more.
+              </p>
+            </div>
+          </div>
+          <div class="reviewBox flex-column">
+            <h3 class="reviewName">Eduardo Ramirez</h3>
+            <div class="datePlusRating flex">
+              <span class="starRating flex"
+                ><i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i
+              ></span>
+              <span class="date flex">23 Aug 2023</span>
+            </div>
+            <div class="reviewPara">
+              <p class="sectionPara">Great Class!! Very appreciated.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!----
+      <section class="sectionContainer whatWeOfferContainer grid">
+        <h2 class="sectionTitle weOfferTitle">What We Offer</h2>
+        <div class="offerContainer grid" role="tablist">
+          <div
+            class="offerBlock flex privateTraining"
+            id="privateBlock"
+            role="tab"
+          >
+            <div class="offerBlockTitleContainer flex">
+              <h3 class="blockTitle subTitle">Private Training</h3>
+            </div>
+          </div>
+          <div class="offerBlock flex openGroup" id="openGroupBlock" role="tab">
+            <div class="offerBlockTitleContainer flex">
+              <h3 class="blockTitle subTitle">Open Group Sessions</h3>
+            </div>
+          </div>
+          <div
+            class="offerBlock flex soccerCamps"
+            id="soccerCampsBlock"
+            role="tab"
+          >
+            <div class="offerBlockTitleContainer flex">
+              <h3 class="blockTitle subTitle">Soccer Camps</h3>
+            </div>
+          </div>
+          <div
+            class="offerBlock flex privateSmallGroups"
+            id="privateSmallGroupBlock"
+            role="tab"
+          >
+            <div class="offerBlockTitleContainer flex">
+              <h3 class="blockTitle subTitle">Private Small Groups</h3>
+            </div>
+          </div>
+        </div>
+      </section>-->
+      <section class="sectionContainer whoWeAreContainerOuter flex">
+        <div class="whoWeAreContainer grid">
+          <div class="textContainer flex-column">
+            <h2 class="sectionTitle whoWeAreTitle">Who We Are</h2>
+            <p class="sectionPara whoWeArePara">
+              Here at Trilogy, we are a private soccer training service based in
+              Santa Clarita, CA, created to help soccer players develop
+              effectively. Founded by Coach Francisco J. Perez, the vision for
+              Trilogy Soccer has always been based on the belief that talent
+              isn’t something you’re born with, but a result of hard-work,
+              diligence, discipline, and consistency. If you have the drive to
+              become the best soccer athlete, our mission is to help you get
+              there. We take our work seriously and demonstrate that through
+              detail-oriented training sessions that work on all areas of the
+              game -- ball control, passing, receiving, dribbling, shooting,
+              attacking, defending, and more.
+            </p>
+            <button class="aboutBtn linkBtn">More About Us</button>
+          </div>
+          <div class="imgContainer aboutUsImgContainer">
+            <picture>
+              <source srcset="imgs/trilogy-camp-group.jpeg" />
+              <img class="aboutImg" src="imgs/trilogy-camp-group.jpeg" />
+            </picture>
+          </div>
+        </div>
+      </section>
+      <section class="sectionContainer trainingPhilosophyContainer grid">
+        <div class="videoContainer"></div>
+        <div class="textContainer flex-column">
+          <h2 class="sectionTitle">Our Training Philosophy</h2>
+          <p class="sectionPara">
+            Prepare - Perform -Perfect. Our philosophy promotes a mentality of
+            consistency, discipline, initiative, and intensity. We don’t focus
+            on flashy drills or drills that may be “social media worthy” but
+            rather on game-like specific moments that will transform you into an
+            effective player on the pitch. Our 3-step philosophy focuses on
+            perfecting the fundamentals - the actions that our athletes execute
+            most often on the field (passing, receiving, dribbling, shooting,
+            finishing, speed, and agility). We then build up to performing these
+            actions at game speed and under pressure in our group sessions/camps
+            and we help our athletes understand how to apply the skills they’ve
+            learned in real game-like situations. Whether you’re playing at a
+            high level (academy, college, etc.) or looking to take a step above
+            recreational into the more serious environment of soccer, we have
+            the perfect training for you!
+          </p>
+        </div>
+      </section>
+      <section class="sectionContainer grid pppSection">
+        <div class="pppBox flex-column">
+          <h3 class="subTitle pppTitle">Prepare</h3>
+          <p class="sectionPara">
+            Our first step in the journey. The more you prepare and the better
+            you do, the easier it will be to succeed come game time. Put in the
+            hours with diligence, dedication, and intensity, and see how your
+            development journey begins to improve!
+          </p>
+        </div>
+        <div class="pppBox flex-column">
+          <h3 class="subTitle pppTitle">Perform</h3>
+          <p class="sectionPara">
+            The second step and crucial one. The sole reason all athletes go
+            above and beyond to prepare in the first place is to perform at the
+            highest possible level. At speed, under pressure, and in all
+            conditions, you must learn how to step up and execute in order to
+            succeed. Showcase yourself with confidence.
+          </p>
+        </div>
+        <div class="pppBox flex-column">
+          <h3 class="subTitle pppTitle">Perfect</h3>
+          <p class="sectionPara">
+            The last step which separates the greats from the rest. Be
+            self-critical and analyze your preparation and performances in order
+            to perfect your process. Pin-point your areas of improvement and
+            build on your areas of strength, but always look to perfect your
+            craft. Never get complacent. Play & refine!
+          </p>
+        </div>
+      </section>
+      <section class="sectionContainer grid ctaSection">
+        <div class="textContainer flex-column">
+          <h2 class="sectionTitle">Let's Get Started!</h2>
+          <p class="sectionPara">
+            We want to make it as simple as possible to get started with us!
+            Just fill out our form leaving your player name, contact email, and
+            phone number so we can reach out and schedule you at our next
+            training session!
+          </p>
+          <ul class="noList contactList">
+            <li class="listItem phoneLi">661.390.6504</li>
+            <li class="listItem emailLi">trilogysoccertraining@gmail.com</li>
+          </ul>
+          <picture class="trilogyLogoContainer">
+            <source srcset="logos-icons/trilogy-full-logo.svg" />
+            <source srcset="logos-icons/trilogy-full-logo.png" />
+            <img
+              class="trilogyLogoBigImg"
+              src="logos-icons/trilogy-full-logo.svg"
+              width="375px"
+            />
+          </picture>
+        </div>
+        <div class="formContainer flex-column">
+          <form class="ctaForm flex-column" id="ctaForm">
+            <ul class="formList noList flex-column">
+              <li class="listItem flex formItem">
+                <label class="listLabel playerName" for="playerName"
+                  >Player Name*</label
+                >
+                <input
+                  id="playerName"
+                  class="playerNameInput listInput"
+                  type="text"
+                  required
+                  placeholder="Johnny Adams"
+                />
+              </li>
+              <li class="listItem flex formItem">
+                <label class="listLabel emailLabel" for="playerEmail"
+                  >Email*</label
+                >
+                <input
+                  id="playerEmail"
+                  class="playerEmailInput listInput"
+                  type="email"
+                  required
+                  placeholder="example@gmail.com"
+                />
+              </li>
+              <li class="listItem flex formItem">
+                <label
+                  class="listLabel playerBirthYearLabel"
+                  for="playerBirthYear"
+                  >Player Birth Year*</label
+                >
+                <input
+                  id="playerBirthYear"
+                  class="playerBirthYearInput listInput"
+                  type="number"
+                  placeholder="ex: 2014"
+                />
+              </li>
+              <li class="listItem flex formItem">
+                <label class="listLabel contactNumberLabel" for="contactNumber"
+                  >Phone Number</label
+                >
+                <input
+                  id="contactNumber"
+                  class="contactNumberInput listInput"
+                  type="number"
+                  placeholder="Contact Phone Number"
+                />
+              </li>
+              <li class="listItem flex formItem">
+                <label class="listLabel messageLabel" for="message"
+                  >Message</label
+                >
+                <textarea
+                  id="message"
+                  class="messageInput"
+                  type="text"
+                  rows="4"
+                  cols="50"
+                  placeholder="Message..."
+                ></textarea>
+              </li>
+              <li class="listItem flex formItem emailListLi">
+                <input
+                  class="emailListInput listInput"
+                  id="emailList"
+                  type="checkbox"
+                />
+                <label class="listLabel emailListLabel" for="emailList"
+                  >I want to receive emails with upcoming events, camps, &
+                  promotions.</label
+                >
+              </li>
+            </ul>
+            <button type="submit" class="formBtn ctaFormBtn">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script
+      id="setmore_script"
+      type="text/javascript"
+      src="https://storage.googleapis.com/fullintegration-live/webComponentAppListing/Container/setmoreIframeLive.js"
+    ></script>
+  </body>
+</html>
